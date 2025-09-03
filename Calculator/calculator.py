@@ -26,14 +26,11 @@ def timer():
 def plus(x):
     return  x[0] + x[1]
 
-
 def minus(x):
     return  x[0] - x[1]
 
-
 def multiply(x):
     return  x[0] * x[1]
-
 
 def divide(x): 
     return x[0] / x[1]

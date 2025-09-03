@@ -41,13 +41,13 @@ class Library:
             else:
                 print(f"We dont have book: {book.title}")
 
-book1 = Book(json_data(f))
+#book1 = Book(json_data(f))
 book2 =  Book("Мастер и Маргарита", "Михаил Булгаков", "978-5389076463")
 
 library = Library()
-library.add_book(book1)
+# library.add_book(book1)
 library.add_book(book2)
 
 # Пользователь берет книгу
-library.check_out(book1)
+# library.check_out(book1)
 print(library.list_available_books())
