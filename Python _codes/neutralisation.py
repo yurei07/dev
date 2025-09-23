@@ -1,13 +1,9 @@
-s1 = "-+-+-+"
-s2 = "-+-+-+"
+time = int(input('Years to seconds:  '))
+year = 365
+day = 24
+hour = 60
+minute = 60
 
-def neutralise(s1, s2):
-    for i in range(len(s1)):
-        if s1[i] == '+' and s2[i] == '+':
-            print('+', end='')
-        elif s1[i] == '-' and s2[i] == '-':
-            print('-', end='')
-        else:
-            print('0', end='')
-            
-neutralise(s1,s2)
+result = time * year * day * hour * minute 
+
+print(f'Result: {result} seconds') 
