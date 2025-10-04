@@ -8,9 +8,22 @@
 </head>
 <body>
     <header class="header">
-      <div class="header_title">
-        <img src="{{ url_for('static', filename='Exclude.png') }}"/>
-        <h2>{{headerTitle}}</h1>
+      <div class="header_flex">
+        <div class="header_title">
+          <img src="{{ url_for('static', filename='Exclude.png') }}"/>
+          <h2>{{headerTitle}}</h1>
+        </div>
+
+        <nav class="header_nav">
+          <ul class="header_ul">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+
+          <button><a href="#">Contact</a></button>
+        </nav>
       </div>
       
     </header>
