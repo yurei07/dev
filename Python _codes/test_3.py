@@ -1,8 +1,25 @@
 import os
 import glob
+import pathlib
+
 
 user = "Prizrak"
 userLaptop = "laptop_Prizrak"
+
+nixos = list(pathlib.Path('/etc/nixos/').iterdir())
+punkt = '.'
+scam = ''
+
+print(nixos)
+for i in range(len(nixos)):
+    if punkt in str(nixos[i]):
+        print(nixos[i], True)
+    else:
+        path = list(pathlib.Path(f'{nixos[i]}').iterdir())
+        scam = path
+        print(str(scam))
+        print(nixos[i], False)
+
 
 ## FUNCTION FOR FIND MY FILES
 def find_files(pattern):
@@ -43,11 +60,11 @@ nameOld = nameFile(files)
 nameNew = nameFile(files1)
 
 
-for j in range(len(nameNew)):
-    for i in range(2, len(nameOld)):
-        if nameNew[j] == nameOld[i]:
-           os.system('') 
-        else:
-            print(nameNew[j], nameOld[i], False)
-            break
+#for j in range(len(nameNew)):
+#    for i in range(2, len(nameOld)):
+#        if nameNew[j] == nameOld[i]:
+#           os.system('') 
+#        else:
+#            print(nameNew[j], nameOld[i], False)
+#            break
 

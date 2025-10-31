@@ -16,10 +16,9 @@
       </div>
       <nav class="header_nav">
         <ul class="header_ul">
-          <li class="header_li">Github</li>
-          <li class="header_li">Instagram</li>
-          <li class="header_li">Blog</li>
-          <li class="header_li">Reddit</li> 
+          <li class="header_li"><a href="#">Github</a></li>
+          <li class="header_li"><a href="#">Blog</a></li>
+          <li class="header_li"><a href="#">Content</a></li>
         </ul>
       </nav>  
     </div>  
@@ -41,15 +40,21 @@
   <footer class="footer">
     <div class="footer_container">
       <div class="footer_icon">
-
+        <img src="{{ url_for('static', filename='img/discord.png') }}">
+        <p>yurei_07</p>
       </div>
       <div class="footer_icon">
-
+        <img src="{{ url_for('static', filename='img/reddit.png') }}">
+        <p>Quick-Passenger-9177</p>
       </div>
       <div class="footer_icon">
-
+        <img src="{{ url_for('static', filename='img/gmail.png') }}">
+        <p>prizrakYurei@gmail.com</p>
       </div>
     </div>
   </footer>
+
+  <!-- Typing Effect Script -->
+  <script src="{{ url_for('static', filename='js/typing.js') }}"></script>
 </body>
 </html>
