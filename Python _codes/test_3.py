@@ -8,8 +8,8 @@ pathBathEtc = pathlib.Path('/etc/')
 pathBathHome = pathlib.Path(f'/home/{user}/')
 pathBathHomeD = pathlib.Path(f'/home/{user}/Documents')
 
-# nixos = pathlib.Path('/etc/nixos/')
-nixos = pathlib.Path(f'/home/{user}/Documents/nixos/')
+nixos = pathlib.Path('/etc/nixos/')
+#nixos = pathlib.Path(f'/home/{user}/Documents/nixos/')
 
 newNixos = pathlib.Path(f'/home/{user}/nixos/')
 
@@ -35,7 +35,7 @@ nameOld = traverse_directories(nixos)
 for j in range(len(nameNew)):
     for i in range(2, len(nameOld)):
         new = nameNew[j].relative_to(pathBathHome)
-        old = nameOld[i].relative_to(pathBathHomeD)
+        old = nameOld[i].relative_to(pathBathEtc)
         if new == old:
             if nameNew[j].read_text() == nameOld[i].read_text(): 
                 print(True)
