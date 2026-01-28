@@ -8,10 +8,10 @@ pathBathEtc = pathlib.Path('/etc/')
 pathBathHome = pathlib.Path(f'/home/{user}/')
 pathBathHomeD = pathlib.Path(f'/home/{user}/Documents')
 
-nixos = pathlib.Path('/etc/nixos/')
+nixos = pathlib.Path('/etc/nixos/modules/tui/neovim/development')
 #nixos = pathlib.Path(f'/home/{user}/Documents/nixos/')
 
-newNixos = pathlib.Path(f'/home/{user}/nixos/')
+newNixos = pathlib.Path(f'/home/{user}/Documents/rhodium/home/development')
 
 # OPEN DIRECTORIES AND FIND FILES
 def traverse_directories(current_path: pathlib.Path):
@@ -48,3 +48,4 @@ for j in range(len(nameNew)):
                     print('IT WORKS!!!!!!!')
                     print(nameNew[j], nameOld[i])
     
+

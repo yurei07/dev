@@ -18,6 +18,7 @@
               # select Python packages here
               pandas
               requests
+		click
             ]
           ))
           fpc

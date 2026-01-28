@@ -33,3 +33,5 @@ begin
   for k := n downto 1 do
     PrintLineOfDiamond(k, n)
 end.
+
+

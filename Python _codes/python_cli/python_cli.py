@@ -8,12 +8,12 @@ userLaptop = "laptop_Prizrak"
 
 pathBathEtc = pathlib.Path('/etc/')
 pathBathHome = pathlib.Path(f'/home/{user}/')
-pathBathHomeD = pathlib.Path(f'/home/{user}/Documents')
+pathBathHomeD = pathlib.Path(f'/home/{user}/Documents/')
 
 nixos = pathlib.Path('/etc/nixos/')
 #nixos = pathlib.Path(f'/home/{user}/Documents/nixos/')
 
-newNixos = pathlib.Path(f'/home/{user}/nixos/')
+newNixos = pathlib.Path(f'/home/{user}/Documents/rhodium/')
 
 file_check = "check.txt"
 
