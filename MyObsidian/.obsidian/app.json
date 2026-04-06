@@ -1,0 +1,12 @@
+{
+  "defaultViewMode": "preview",
+  "propertiesInDocument": "hidden",
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "Attachments",
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "promptDelete": false,
+  "spellcheck": true
+}

@@ -1,0 +1,257 @@
+{
+  "main": {
+    "id": "bfa10a889d1a1812",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc5cb07c24149acd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd090afdbf221c90",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "pinned": true,
+              "icon": "search",
+              "title": "Home tab"
+            }
+          },
+          {
+            "id": "0ac633076000515a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Life_Goals/Внешностыыь & Зал.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Внешностыыь & Зал"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "74ecf5a8632044b6",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "273a63c5908f5109",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "ac91072db00714b0",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "dd16f61257b737e9",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "27732596882323db",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "47fa6d3edd4379a4",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0,
+    "pinned": true
+  },
+  "right": {
+    "id": "5121e24f5457eb2c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "5f78254d75eb4994",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "3.Teaching/IT/Book/Программирование, введение в профессию 1.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "3e2aa2bd33a4911c",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "3.Teaching/IT/Book/Программирование, введение в профессию 1.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "2490ffefdd117c29",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "3.Teaching/IT/Book/Программирование, введение в профессию 1.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "64c59a5f024d89cd",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      },
+      {
+        "id": "088d529194d5a9dc",
+        "type": "leaf",
+        "state": {
+          "type": "planner-timeline",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Timeline"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "dbfolder:Create a new database table": false,
+      "obsidian-projects:Open projects": false,
+      "audio-recorder:Start/stop recording": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
+      "publish:Publish changes...": false,
+      "templates:Insert template": false,
+      "zk-prefixer:Create new unique note": false
+    }
+  },
+  "active": "0ac633076000515a",
+  "lastOpenFiles": [
+    "2026-01-22.md",
+    "00.Life_Goals/Внешностыыь & Зал.md",
+    "Untitled.canvas",
+    "Untitled.base",
+    "Homepage.md",
+    "3.Teaching/IT/Book/Программирование, введение в профессию 1.md",
+    "2.Journaling/Daily Journaling/2025/September/2025-09-12.md",
+    "2.Journaling/Daily Journaling/2025/September/2025-09-09.md",
+    "Excalidraw/Howuseuserpc.excalidraw.md",
+    "Excalidraw/Drawing 2025-08-19 17.md",
+    "🏠 Homepage.md",
+    "Excalidraw/Book_whatispc.excalidraw.md",
+    "Attachments/Ink/Writing/2025.8.19 - 17.49pm.writing",
+    "Attachments/Ink/Writing/2025.8.19 - 17.47pm.writing",
+    "Attachments/Ink/Writing/2025.8.19 - 10.00am.writing",
+    "Attachments/Ink/Drawing/2025.8.19 - 17.39pm.drawing",
+    "3.Teaching/IT/Book/Программирование, введение в профессию 1.sync-conflict-20250819-102143-ZCNVVWZ.md",
+    "3.Teaching/IT/Book/Программирование, введение в профессию 1.sync-conflict-20250819-101255-ZCNVVWZ.md",
+    "Attachments/Ink/Writing/2025.8.19 - 10.00am.sync-conflict-20250819-101254-4UUFEIS.writing",
+    "Attachments/Ink/Drawing/2025.8.19 - 9.29am.drawing",
+    "Excalidraw/Germany.excalidraw.restored.md",
+    "3.Teaching/Germany/Grammar/Präteritum and Past Simple in Text form.md",
+    "2.Journaling/Daily Journaling/2025/August/2025-08-19.md",
+    "Excalidraw/Drawing 2025-08-19 09.35.24.excalidraw.md",
+    "Excalidraw",
+    "Attachments/Ink/Writing/2025.8.19 - 9.30am.writing",
+    "Attachments/Ink/Writing"
+  ]
+}

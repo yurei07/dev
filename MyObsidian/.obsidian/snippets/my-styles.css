@@ -1,0 +1,51 @@
+/* NizyPrizrak's Black Metal Venom Theme */
+:root {
+  --base00: #000000;
+  --base01: #121212;
+  --base02: #222222;
+  --base03: #333333;
+  --base04: #999999;
+  --base05: #c1c1c1;
+  --base0D: #888888;
+
+  --background-primary: var(--base00);
+  --background-primary-alt: var(--base00);
+  --background-secondary: var(--base01);
+  --background-secondary-alt: var(--base01);
+  --background-accent: var(--base0D);
+  --background-modifier-border: var(--base03);
+  --background-modifier-form-field: var(--base01);
+  --background-modifier-hover: var(--base02);
+
+  --text-normal: var(--base05);
+  --text-muted: var(--base04);
+  --text-accent: var(--base0D);
+  --text-accent-hover: var(--base05);
+  --text-selection: var(--base05);
+  --interactive-accent: var(--base0D);
+  --interactive-accent-hover: var(--base04);
+
+  --heading-color: var(--base05);
+  --text-faint: var(--base03);
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.94); /* base00 with 0.94 opacity */
+}
+
+/* Original styles preservation */
+/* Resolves https://www.reddit.com/r/ObsidianMD/comments/p0w0ib/changing_the_colour_of_uncreated_notes_in_graph/ */
+/* Changes color and opacity of uncreated notes. */
+
+.graph-view.color-fill-unresolved {
+    color: #616161;
+    opacity: 0.7;
+}
+.graph-view.color-fill {
+    color: var(--text-accent); /* Using new accent color */
+    opacity: 1;
+}
+mark{
+    background-color: var(--base0D); /* Using new accent color */
+    color: rgb(20, 20, 20) !important;
+}

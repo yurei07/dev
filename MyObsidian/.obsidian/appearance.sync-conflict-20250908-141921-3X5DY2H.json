@@ -1,0 +1,22 @@
+{
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "distinc-color-graph",
+    "extended-colorschemes",
+    "invert image",
+    "MCL Wide Views",
+    "my-styles",
+    "sidebar",
+    "MCL Multi Column",
+    "MCL Gallery Cards",
+    "Cards Shadow",
+    "Cards",
+    "Excalidraw - Compact",
+    "Day Planner (Ivan Lednev)"
+  ],
+  "cssTheme": "AnuPpuccin",
+  "textFontFamily": "Inter",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Inter",
+  "baseFontSize": 17
+}

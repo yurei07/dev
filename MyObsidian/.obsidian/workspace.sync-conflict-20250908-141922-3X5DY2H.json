@@ -1,0 +1,460 @@
+{
+  "main": {
+    "id": "ff30545b009ee0b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "0657fc423d5cfeae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c489f7c68e496d18",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏠 Homepage.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "🏠 Homepage"
+            }
+          },
+          {
+            "id": "13d354812dd1db38",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Life/Home/Progress Goals/My goals to 2026 years.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "My goals to 2026 years"
+            }
+          },
+          {
+            "id": "5348231ecd52a4e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3.Teaching/Germany/Vocabulary/First 100 words.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "First 100 words"
+            }
+          },
+          {
+            "id": "85c1f8e5060b97d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3.Teaching/Germany/Grammar/Prapositionen in der deutschen Grammatik.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Prapositionen in der deutschen Grammatik"
+            }
+          },
+          {
+            "id": "7b6ff598c5b3b53f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2.Journaling/Weekly Breifing/2025/August/2025-W35.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-W35"
+            }
+          },
+          {
+            "id": "e9bdbae1e8715da2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2.Journaling/Daily Journaling/2025/August/2025-08-25.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-25"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6fa7caea1947fd37",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5c18cbdd978fc72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f204be13209361d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "404e37f0f5584cac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Liebli",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3c1a33f0c5496fc9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "8bee83d9a5fa8fa7",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
+              "state": {},
+              "icon": "trash",
+              "title": "Trash explorer"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 234
+  },
+  "right": {
+    "id": "01c80885edef377f",
+    "type": "split",
+    "children": [
+      {
+        "id": "94d82477d3b81bc5",
+        "type": "tabs",
+        "dimension": 67.102615694165,
+        "children": [
+          {
+            "id": "b8cfde37c24b2947",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "d043da2453dc5ddb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "bd6a57dbcaf2daa5",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "2.Journaling/Daily Journaling/2025/July/2025-07-28.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": true,
+                  "showAttachments": true,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -0.8,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5517575066436916,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of 2025-07-28"
+            }
+          },
+          {
+            "id": "025438ed514a5daf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2.Journaling/Daily Journaling/2025/July/2025-07-13.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-07-13"
+            }
+          },
+          {
+            "id": "39a76bde5f566225",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "486fdb2f39f9ba2c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "bf6234a787f4ef9c",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1eb471eca4fe8a10",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "5ff6eef4a9f6c4a0",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b41efa34f62597d2",
+        "type": "tabs",
+        "dimension": 32.89738430583501,
+        "children": [
+          {
+            "id": "ff59cc13c77c5914",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "e75b94f8566f2d9a",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "3.Teaching/IT/Python/Тип данних bool и тип данных NoneType.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Тип данних bool и тип данных NoneType"
+            }
+          },
+          {
+            "id": "9ad4ce13a8bf1bbf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "3.Teaching/IT/Python/Тип данних bool и тип данных NoneType.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Тип данних bool и тип данных NoneType"
+            }
+          },
+          {
+            "id": "af473c9fa76613a8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 289
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "publish:Publish changes...": false,
+      "bases:Create new base": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "dbfolder:Create a new database table": false,
+      "obsidian-projects:Open projects": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "obsidian42-brat:BRAT": false,
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "stenography-obsidian:Stenography": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "404e37f0f5584cac",
+  "lastOpenFiles": [
+    "Texts _250825_101940.pdf",
+    "2.Journaling/Weekly Breifing/2025/August/2025-W35.md",
+    "2.Journaling/Daily Journaling/2025/August/2025-08-25.md",
+    "2.Journaling/Daily Journaling/2025/August/2025-08-24.md",
+    "2.Journaling/Daily Journaling/2025/August/2025-08-23.md",
+    "3.Teaching/Germany/Grammar/Prapositionen in der deutschen Grammatik.md",
+    "3.Teaching/Germany/Vocabulary/First 100 words.md",
+    "1. Life/Home/Progress Goals/My goals to 2026 years.md",
+    "3.Teaching/IT/Book/Программирование, введение в профессию 1.md",
+    "1. Life/Home/Progress Goals/Personal Financing.md",
+    "3.Teaching/Germany/Grammar/Präteritum and Past Simple in Text form.md",
+    "3.Teaching/Germany/Vocabulary/Noch die Wörter.md",
+    "3.Teaching/IT/Python/Dictionaries.md",
+    "🏠 Homepage.md",
+    "2.Journaling/Daily Journaling/2025/August/2025-08-22.md",
+    "2025-08-23.md",
+    "3.Teaching/IT/Python/Basic syntax of python.md",
+    "3.Teaching/IT/Python/12 week python.md",
+    "3.Teaching/IT/Python/virtualenv/Virtualenv.md",
+    "3.Teaching/IT/Python/virtualenv",
+    "3.Teaching/IT/Python/Method.md",
+    "3.Teaching/IT/Python/Тип данних bool и тип данных NoneType.md",
+    "Excalidraw/Book_whatispc.excalidraw.md",
+    "Attachments/Pasted image 20250822111056.png",
+    "3.Teaching/Germany/Grammar/Basic Grammar of Germany.md",
+    "Excalidraw/Howuseuserpc.excalidraw.md",
+    "3.Teaching/Germany/Vocabulary/Schwach Verb und Starke Verb.md",
+    "2.Journaling/Weekly Breifing/Juni 24.06.2025 - 30.06.2025.md",
+    "Attachments/Ink/Writing/2025.8.19 - 17.49pm.writing",
+    "Attachments/Ink/Writing/2025.8.19 - 17.47pm.writing",
+    "Attachments/Ink/Drawing/2025.8.19 - 17.39pm.drawing",
+    "Attachments/Ink/Writing/2025.8.19 - 10.00am.writing",
+    "Attachments/Pasted image 20250722174827.png",
+    "Attachments/Ink/Writing/2025.8.19 - 10.00am.sync-conflict-20250819-101254-4UUFEIS.writing",
+    "Attachments/Ink/Writing/2025.8.19 - 10.00am.writing~",
+    "Attachments/Ink/Writing/2025.8.19 - 9.30am.writing~",
+    "Excalidraw",
+    "Attachments/Ink/Writing/2025.8.19 - 9.30am.writing",
+    "Attachments/Pasted image 20250818090934.png",
+    "Attachments/Pasted image 20250818090833.png",
+    "Attachments/Pasted image 20250724180555.png",
+    "Attachments/Pasted image 20250812215116.png",
+    "Attachments/Pasted image 20250812114251.png",
+    "Attachments/Pasted image 20250812112106.png",
+    "Attachments/Pasted image 20250812114152.png",
+    "Attachments/Pasted image 20250812114205.png"
+  ]
+}
