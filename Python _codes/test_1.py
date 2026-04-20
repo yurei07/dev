@@ -76,7 +76,26 @@ parser.add_argument("--cpu", help="Info about CPU", action='store_true')
 parser.add_argument("--memory", help="Info about Memory", action="store_true")
 parser.add_argument("--disk", help="Info about Disk", action="store_true")
 
+parser.add_argument("--all", help="Info about CPU Memory and Disk", action="store_true")
+
 args = parser.parse_args()
+gb = 1024 * 1024 *1024
+
+if args.all:
+    args.cpu = True
+    args.memory = True
+    args.disk = True
+    # cpu = psutil.cpu_percent(interval=1)
+    # ram = psutil.virtual_memory()
+    # disk = psutil.disk_usage("/")
+    #
+    # infoCpu = CpuInfo(cpu)
+    # infoRam = MemoryInfo(ram.percent, ram.total / gb, ram.used / gb)
+    # infoDisk = DiskInfo(disk.percent, disk.total / gb, disk.used / gb)
+
+    # print(infoCpu.get_cpu())
+    # print(infoRam.get_memory())
+    # print(infoDisk.get_disk())
 
 if args.cpu:
     raw = psutil.cpu_percent(interval=1)
@@ -84,13 +103,11 @@ if args.cpu:
     print(info.get_cpu())
 
 if args.memory:
-    gb = 1024 * 1024 *1024
     raw = psutil.virtual_memory()
     info = MemoryInfo(raw.percent, raw.total / gb, raw.used / gb)
     print(info.get_memory())
 
 if args.disk:
-    gb = 1024 * 1024 * 1024
     raw = psutil.disk_usage("/")
     info = DiskInfo(raw.percent, raw.total / gb, raw.used / gb)
     print(info.get_disk())
