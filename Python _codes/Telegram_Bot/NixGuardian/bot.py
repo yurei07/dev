@@ -1,5 +1,3 @@
-from email import message_from_file
-from pydoc import text
 import telebot
 import subprocess
 
@@ -10,13 +8,10 @@ bot = telebot.TeleBot(TOKEN)
 
 
 class SystemStats:
-    def __init__(self) -> None:
+    def __init__(self, name) -> None:
         self.name = name
-        self.nixos = nixos
-        self.timeWork = timeWork,
+        self.status = "on"
 
-    def nixos(self):
-        return subprocess.run(["neofetch"], capture_output=True, text=True)
 
 @bot.message_handler(["start"])
 def welcome(message):
@@ -31,9 +26,33 @@ def welcome(message):
             "You're not Admin. I can't work with you.",
         )
 
-@bot.message_hadler(["nixos"]):
-    user_id = message.from_user.id
+@bot.message_handler(["nixos"])
+def system(message):
     messageForBot = message.chat.id
+    user_id = message.from_user.id
+
+    if user_id == ADMIN_ID:
+        bot.send_message(messageForBot, "Waiting info about your pc")
+    
+        try: 
+            timeWork = subprocess.run(["uptime"], capture_output=True, text=True)
+            ram = subprocess.run(["free", "-h"], capture_output=True, text=True)
+            dysk = subprocess.run(["nix-shell", "-p", "dysk", "--run", "dysk"], capture_output=True, text=True)
+
+            sys = f"**MY SYSTEM** \n\n"
+            sys += f"**RAM: {ram}** \n"
+            sys += f"**DYSK: {dysk}**\n"
+            sys += f"**TIME WORK: {timeWork}**\n"
+            
+            bot.send_message(messageForBot, sys, parse_mode="Markdown")
+
+        except Exception as e:
+            bot.send_message(messageForBot, f"ERROR: {e}")
+    else:
+        bot.send_message(
+            messageForBot,
+            "You're not Admin. I can't work with you.",
+        )
 
 
 print("Your bot works!")

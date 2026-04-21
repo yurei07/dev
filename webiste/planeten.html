@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unser Sonnensystem – Planeten</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span>🪐</span> Sonnensystem
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Startseite</a></li>
+        <li><a href="planeten.html" class="active">Planeten</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <h1>Die 8 Planeten</h1>
+    <p>Vergleich aller Planeten unseres Sonnensystems nach Daten und Eigenschaften</p>
+  </section>
+
+  <main>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Planet</th>
+            <th>Typ</th>
+            <th>Durchmesser (km)</th>
+            <th>Entfernung zur Sonne (Mio. km)</th>
+            <th>Umlaufzeit (Erdtage)</th>
+            <th>Temperatur (Ø °C)</th>
+            <th>Monde</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="planet-cell">
+                <div class="planet-dot" style="background:#b5b5b5; color:#b5b5b5;"></div>
+                Merkur
+              </div>
+            </td>
+            <td><span class="badge badge-rocky">Gestein</span></td>
+            <td>4 879</td>
+            <td>57,9</td>
+            <td>87,97</td>
+            <td>+167</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="planet-cell">
+                <div class="planet-dot" style="background:#e8c97e; color:#e8c97e;"></div>
+                Venus
+              </div>
+            </td>
+            <td><span class="badge badge-rocky">Gestein</span></td>
+            <td>12 104</td>
+            <td>108,2</td>
+            <td>224,70</td>
+            <td>+464</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="planet-cell">
+                <div class="planet-dot" style="background:#4fa8e8; color:#4fa8e8;"></div>
+                Erde
+              </div>
+            </td>
+            <td><span class="badge badge-rocky">Gestein</span></td>
+            <td>12 756</td>
+            <td>149,6</td>
+            <td>365,25</td>
+            <td>+15</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="planet-cell">
+                <div class="planet-dot" style="background:#c1440e; color:#c1440e;"></div>
+                Mars
+              </div>
+            </td>
+            <td><span class="badge badge-rocky">Gestein</span></td>
+            <td>6 792</td>
+            <td>227,9</td>
+            <td>686,97</td>
+            <td>−63</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="planet-cell">
+                <div class="planet-dot" style="background:#d8a070; color:#d8a070;"></div>
+                Jupiter
+              </div>
+            </td>
+            <td><span class="badge badge-gas">Gas</span></td>
+            <td>142 984</td>
+            <td>778,5</td>
+            <td>4 332,59</td>
+            <td>−110</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="planet-cell">
+                <div class="planet-dot" style="background:#f0d080; color:#f0d080;"></div>
+                Saturn
+              </div>
+            </td>
+            <td><span class="badge badge-gas">Gas</span></td>
+            <td>120 536</td>
+            <td>1 432,0</td>
+            <td>10 759,22</td>
+            <td>−140</td>
+            <td>146</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="planet-cell">
+                <div class="planet-dot" style="background:#7de8e8; color:#7de8e8;"></div>
+                Uranus
+              </div>
+            </td>
+            <td><span class="badge badge-ice">Eis</span></td>
+            <td>51 118</td>
+            <td>2 867,0</td>
+            <td>30 688,50</td>
+            <td>−195</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="planet-cell">
+                <div class="planet-dot" style="background:#4060e0; color:#4060e0;"></div>
+                Neptun
+              </div>
+            </td>
+            <td><span class="badge badge-ice">Eis</span></td>
+            <td>49 528</td>
+            <td>4 515,0</td>
+            <td>60 182,00</td>
+            <td>−200</td>
+            <td>16</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">Quellen: NASA Solar System Exploration (2024)</p>
+
+    <div class="info-section" style="margin-top:2rem;">
+      <h2>🔎 Planetentypen erklärt</h2>
+      <ul>
+        <li><strong style="color:#b07840;">Gesteinsplaneten</strong> – Merkur, Venus, Erde, Mars: feste Oberfläche aus Silikat und Metall, relativ klein.</li>
+        <li><strong style="color:#f08c28;">Gasriesen</strong> – Jupiter, Saturn: riesige Planeten ohne feste Oberfläche, bestehen hauptsächlich aus Wasserstoff und Helium.</li>
+        <li><strong style="color:#50a0dc;">Eisriesen</strong> – Uranus, Neptun: ähnlich wie Gasriesen, aber mit höherem Anteil an Wasser, Ammoniak und Methan als Eis.</li>
+      </ul>
+    </div>
+
+    <div class="info-section" style="margin-top:1.5rem;">
+      <h2>📏 Relativer Größenvergleich (vereinfacht)</h2>
+      <div style="display:flex; flex-wrap:wrap; align-items:flex-end; gap:1rem; padding-top:1rem;">
+
+        <div style="text-align:center;">
+          <div style="width:8px;height:8px;background:#b5b5b5;border-radius:50%;margin:0 auto 0.4rem;"></div>
+          <span style="font-size:0.75rem;color:var(--text-dim);">Merkur</span>
+        </div>
+        <div style="text-align:center;">
+          <div style="width:20px;height:20px;background:#e8c97e;border-radius:50%;margin:0 auto 0.4rem;"></div>
+          <span style="font-size:0.75rem;color:var(--text-dim);">Venus</span>
+        </div>
+        <div style="text-align:center;">
+          <div style="width:21px;height:21px;background:#4fa8e8;border-radius:50%;margin:0 auto 0.4rem;"></div>
+          <span style="font-size:0.75rem;color:var(--text-dim);">Erde</span>
+        </div>
+        <div style="text-align:center;">
+          <div style="width:12px;height:12px;background:#c1440e;border-radius:50%;margin:0 auto 0.4rem;"></div>
+          <span style="font-size:0.75rem;color:var(--text-dim);">Mars</span>
+        </div>
+        <div style="text-align:center;">
+          <div style="width:72px;height:72px;background:#d8a070;border-radius:50%;margin:0 auto 0.4rem;box-shadow:0 0 18px rgba(216,160,112,0.5);"></div>
+          <span style="font-size:0.75rem;color:var(--text-dim);">Jupiter</span>
+        </div>
+        <div style="text-align:center;">
+          <div style="width:60px;height:60px;background:#f0d080;border-radius:50%;margin:0 auto 0.4rem;box-shadow:0 0 14px rgba(240,208,128,0.4);"></div>
+          <span style="font-size:0.75rem;color:var(--text-dim);">Saturn</span>
+        </div>
+        <div style="text-align:center;">
+          <div style="width:28px;height:28px;background:#7de8e8;border-radius:50%;margin:0 auto 0.4rem;box-shadow:0 0 10px rgba(125,232,232,0.4);"></div>
+          <span style="font-size:0.75rem;color:var(--text-dim);">Uranus</span>
+        </div>
+        <div style="text-align:center;">
+          <div style="width:27px;height:27px;background:#4060e0;border-radius:50%;margin:0 auto 0.4rem;box-shadow:0 0 10px rgba(64,96,224,0.4);"></div>
+          <span style="font-size:0.75rem;color:var(--text-dim);">Neptun</span>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>🪐 Schulprojekt Informatik &nbsp;|&nbsp; Thema: Unser Sonnensystem</p>
+  </footer>
+
+</body>
+</html>
